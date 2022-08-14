@@ -69,7 +69,7 @@ function SideBar() {
 
   
   function getRooms() {
-    fetch("http://localhost:3002/rooms").then((res)=> res.json()).then((data)=> setRooms(data));
+    fetch("https://mernchat-application.herokuapp.com/rooms").then((res)=> res.json()).then((data)=> setRooms(data));
   }
 
   function orderIds( id1 , id2 ){
