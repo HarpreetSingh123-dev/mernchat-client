@@ -4,7 +4,7 @@ const appApi = createApi({
 
     reducerPath: 'appApi',
     baseQuery: fetchBaseQuery({
-       baseUrl: 'http://localhost:3002'
+       baseUrl: 'https://mernchat-application.herokuapp.com/'
     }),
 
     endpoints: (bulider)=>({
